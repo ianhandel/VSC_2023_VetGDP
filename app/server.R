@@ -374,7 +374,8 @@ shinyServer(function(input, output, session) {
    
    output$l_hist <- renderPlot({
      
-     lik_hist()
+     ggplot() + labs(title = "I'm a placeholder")
+     # lik_hist()
      
    })
    
